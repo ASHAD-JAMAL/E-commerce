@@ -9,7 +9,7 @@ const ProductDisplay = (props) => {
   const {addToCart} = useContext(ShopContext)
   return (
     <>
-      <div className="ProductDisplay">
+      <div className="Productdisplay">
         <div className="productdisplay-left">
           <div className="productdisplay-img-list">
             <img src={product.image} alt="" />
@@ -43,7 +43,7 @@ const ProductDisplay = (props) => {
               ${product.new_price}
             </div>
           </div>
-          <div className="productdiplay-right-description">
+          <div className="productdisplay-right-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             laborum earum, deleniti architecto nostrum excepturi temporibus
             ipsum cumque eos. Excepturi quis, debitis quos quibusdam corrupti
